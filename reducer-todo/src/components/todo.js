@@ -4,8 +4,7 @@ import { toDoReducer, initialState } from '../reducers';
 
 
 const Todo = ({todo, handleToggleTodo}) => {
-    const [state, dispatch] = useReducer(toDoReducer, initialState);
-    const [taskID, setTaskID] = useState(todo.id);
+
 
     return(
     <li

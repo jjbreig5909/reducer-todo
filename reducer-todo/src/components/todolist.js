@@ -20,12 +20,10 @@ const TodoList = () => {
 
     const handleToggleTodo = (id) => {
         dispatch({ type: 'TOGGLE_TODO', id: id});
-        console.log('hi');
     };
 
     const handleRemoveComplete = () => {
         dispatch({type: 'REMOVE_COMPLETE'})
-        console.log('click!');
     }
 
 
